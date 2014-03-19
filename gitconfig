@@ -1,12 +1,15 @@
 [color]
   ui = auto
 [core]
-  excludesfile = /Users/daniel/.gitignore_global
   autocrlf = false
   safecrlf = true
 [user]
-  name = Daniel Levenson
-  email = dleve123@gmail.com
+  name = Alex Villa
+  email = avilla0429@gmail.com
+[credential]
+  helper = cache
+[crendential]
+  helper = cache --timeout=3600
 [alias]
   co = checkout
   ci = commit
