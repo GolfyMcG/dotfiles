@@ -32,3 +32,5 @@ NO_COLOUR="\[\033[0m\]"
 PS1="$GREEN\u@\h:$CYAN\w$YELLOW\$(parse_git_branch)$NO_COLOUR\$ "
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+cd ~/apps/healthify
